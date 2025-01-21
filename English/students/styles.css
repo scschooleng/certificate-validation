@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #003366;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: Georgia;
+  }
+
+  .header h1 a {
+    color: white;          /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Elimina el subrayado */
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+  }
+
+  .certificate-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #003366;
+    border-bottom: 3px solid #003366; /* Línea elegante */
+  }
+  
+  
+  .certificate-section .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    text-align: left;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .certificate-section .card h2 {
+    color: #003366;
+  }
+  
+  .footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina espacios entre celdas */
+}
+td {
+    padding: 8px 12px;
+}
+td:first-child {
+    text-align: left; /* Alinear la primera columna a la izquierda */
+}
+td:last-child {
+    text-align: right; /* Alinear la puntuación a la derecha */
+}
+tr {
+    border: none; /* Eliminar bordes */
+}
+
+tr.total-score {
+  background-color: #d6d6d6; /* Fondo suave */
+  font-weight: bold; /* Texto en negritas */
+  font-size: 1.3em; /* Tamaño de fuente ligeramente mayor */
+}
