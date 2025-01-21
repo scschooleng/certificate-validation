@@ -93,3 +93,49 @@ tr.total-score {
   font-weight: bold; /* Texto en negritas */
   font-size: 1.3em; /* Tamaño de fuente ligeramente mayor */
 }
+
+/* Contenedor general */
+.student-info {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.info-title {
+  text-align: left;
+  font-size: 1.8rem;
+  color: #003366;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 0.5rem;
+}
+
+/* Tabla */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #333;
+}
+
+.info-table th, 
+.info-table td {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.info-table th {
+  width: 40%; /* Ajusta la proporción de columnas */
+  background-color: #f9f9f9;
+  color: #003366;
+  font-weight: bold;
+}
+
+.info-table td {
+  background-color: #fff;
+}
+
+.info-table tr:last-child td {
+  border-bottom: none;
+}
